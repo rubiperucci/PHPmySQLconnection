@@ -31,6 +31,7 @@ if(isset($_POST['name'])){
     $email = addslashes($_POST['email']);
 	$psw = addslashes($_POST['psw']);
 	$confpsw = addslashes($_POST['confpsw']);
+	
 
     if(!empty($name) && !empty($dtbirth) && !empty($tel) && !empty($email) && !empty($psw) && !empty($confpsw)){
 		$u->conct("YOUR_DATABASE_NAME","HOST_IP","MySQL_USER","PASSWORD"); //fill with your database configuration
