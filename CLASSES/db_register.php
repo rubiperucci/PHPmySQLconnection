@@ -50,5 +50,6 @@ Class User{
 			return false;
 		}
 	}
+	
 }
 ?>
